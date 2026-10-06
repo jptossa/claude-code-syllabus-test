@@ -26,7 +26,7 @@ css/styles.css         All site styles; color and spacing tokens defined on :roo
 js/main.js             Loads data files and renders each section
 data/course.json       Course metadata, meeting times, instructor info, office hours
 data/schedule.json     Weekly schedule entries
-data/assignments.json  Assignments and grading weights
+data/assignments.json  Assignments, weights, grading criteria, scale, and notes
 data/policies.json     Late work, attendance, academic integrity, accessibility
 assets/                Images, PDFs (e.g. a printable syllabus)
 assets/README.md       Notes on expected assets (syllabus.pdf is linked from the page)

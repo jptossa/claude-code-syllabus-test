@@ -252,6 +252,11 @@ tr.current-week {
   font-weight: 700;
 }
 
+.grade-scale {
+  columns: 10rem auto;
+  column-gap: var(--space-4);
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   padding-block: var(--space-4);

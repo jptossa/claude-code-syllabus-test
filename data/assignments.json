@@ -26,10 +26,64 @@
     }
   ],
   "gradingScale": [
-    { "grade": "A", "range": "90–100%" },
-    { "grade": "B", "range": "80–89%" },
-    { "grade": "C", "range": "70–79%" },
-    { "grade": "D", "range": "60–69%" },
-    { "grade": "F", "range": "Below 60%" }
+    {
+      "grade": "A",
+      "range": "93–100%"
+    },
+    {
+      "grade": "A−",
+      "range": "90–92%"
+    },
+    {
+      "grade": "B+",
+      "range": "87–89%"
+    },
+    {
+      "grade": "B",
+      "range": "83–86%"
+    },
+    {
+      "grade": "B−",
+      "range": "80–82%"
+    },
+    {
+      "grade": "C+",
+      "range": "77–79%"
+    },
+    {
+      "grade": "C",
+      "range": "73–76%"
+    },
+    {
+      "grade": "C−",
+      "range": "70–72%"
+    },
+    {
+      "grade": "D",
+      "range": "60–69%"
+    },
+    {
+      "grade": "F",
+      "range": "Below 60%"
+    }
+  ],
+  "gradingCriteria": [
+    {
+      "component": "Weekly labs",
+      "criteria": "Graded complete / partial / incomplete (100% / 50% / 0%). A lab is complete when it runs and meets every checklist item. Your lowest lab score is dropped."
+    },
+    {
+      "component": "Projects 1 and 2",
+      "criteria": "Rubric out of 100: working result that meets the brief (40), code quality and tests (25), how you directed and reviewed Claude's work, shown in your CLAUDE.md, prompts, and commit history (25), and a short written reflection (10)."
+    },
+    {
+      "component": "Capstone project and demo",
+      "criteria": "Rubric out of 100: scope and working product (35), code quality, tests, and documentation (25), agent workflow and judgment, including what you accepted, rejected, and corrected (20), and the live demo and Q&A (20)."
+    }
+  ],
+  "gradingNotes": [
+    "Final percentages are rounded to the nearest whole number before letter grades are assigned (89.5% becomes 90%, an A−).",
+    "Feedback on labs is returned within one week and on projects within two weeks.",
+    "To dispute a grade, email the instructor within one week of receiving it and explain which rubric item you think was misapplied."
   ]
 }

@@ -203,12 +203,19 @@ const renderAssignments = (data) => {
   scroll.setAttribute('role', 'region');
   scroll.setAttribute('aria-label', 'Assignments and weights (scrolls sideways)');
 
-  const scale = el('ul', {}, ...(data.gradingScale ?? []).map((g) => el('li', {}, `${g.grade}: ${g.range}`)));
+  const criteria = data.gradingCriteria ?? [];
+  const notes = data.gradingNotes ?? [];
+  const scale = el('ul', { className: 'grade-scale' },
+    ...(data.gradingScale ?? []).map((g) => el('li', {}, `${g.grade}: ${g.range}`)));
 
   container('assignments').replaceChildren(
     scroll,
+    ...(criteria.length
+      ? [el('h3', {}, 'How work is graded'), definitionList(criteria.map((c) => [c.component, c.criteria]))]
+      : []),
     el('h3', {}, 'Grading scale'),
-    scale
+    scale,
+    ...(notes.length ? [el('ul', {}, ...notes.map((n) => el('li', {}, n)))] : [])
   );
 };
 
