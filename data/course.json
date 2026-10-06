@@ -1,14 +1,14 @@
 {
   "title": "Claude Coding Bootcamp",
   "code": "TODO: Course code",
-  "term": "TODO: Term (e.g. Spring 2027)",
+  "term": "Fall",
   "description": "A hands-on bootcamp on building software with Claude Code, Anthropic's agentic coding tool. You will learn to set up projects so Claude works well in them, guide it with clear prompts and planning, review and test what it produces, extend it with hooks, skills, and MCP servers, and ship a working capstone project.",
   "outcomes": [],
   "meetings": [
     {
       "days": "TODO: Days",
-      "time": "TODO: Time",
-      "location": "TODO: Room"
+      "time": "10 AM",
+      "location": "Noble Desktop"
     }
   ],
   "instructor": {
