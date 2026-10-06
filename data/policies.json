@@ -1,0 +1,24 @@
+{
+  "policies": [
+    {
+      "id": "late-work",
+      "title": "Late work",
+      "text": "Labs and projects lose 10% per day late, up to three days, after which they are not accepted. Contact the instructor before the deadline if you need an extension. The capstone demo cannot be late because it happens live on demo day."
+    },
+    {
+      "id": "attendance",
+      "title": "Attendance",
+      "text": "Sessions are hands-on, and much of the learning happens in live pairing and review. Attend every session. If you must miss one, tell the instructor in advance and complete that week's lab on your own."
+    },
+    {
+      "id": "academic-integrity",
+      "title": "Academic integrity",
+      "text": "Using Claude and other AI tools is expected in this course. You are responsible for every line you submit: you must understand it, be able to explain it, and be able to change it on request. Do not submit another student's work as your own, and credit any outside code or resources you use."
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility and accommodations",
+      "text": "If you need accommodations to participate fully, please contact the instructor early in the course so we can arrange them. TODO: Add the institution's disability services contact."
+    }
+  ]
+}

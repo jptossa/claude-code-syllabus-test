@@ -1,0 +1,35 @@
+{
+  "assignments": [
+    {
+      "name": "Weekly labs (5)",
+      "due": "TODO: YYYY-MM-DD (end of each week)",
+      "weight": 30,
+      "description": "Short guided exercises practicing each week's Claude Code skill."
+    },
+    {
+      "name": "Project 1: CLAUDE.md-driven feature",
+      "due": "TODO: YYYY-MM-DD",
+      "weight": 20,
+      "description": "Write a CLAUDE.md for a starter repo, then use Claude Code to plan and build a feature that follows it."
+    },
+    {
+      "name": "Project 2: Test and review workflow",
+      "due": "TODO: YYYY-MM-DD",
+      "weight": 20,
+      "description": "Add tests to an existing codebase with Claude, fix the bugs they reveal, and submit a reviewed pull request."
+    },
+    {
+      "name": "Capstone project and demo",
+      "due": "TODO: YYYY-MM-DD",
+      "weight": 30,
+      "description": "Build and ship a project of your choice with Claude Code, then demo it and explain how you worked with the agent."
+    }
+  ],
+  "gradingScale": [
+    { "grade": "A", "range": "90–100%" },
+    { "grade": "B", "range": "80–89%" },
+    { "grade": "C", "range": "70–79%" },
+    { "grade": "D", "range": "60–69%" },
+    { "grade": "F", "range": "Below 60%" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "date": "TODO: YYYY-MM-DD (first day of week 1)",
+      "topic": "Getting started with Claude Code: installation, the agent loop, and permissions",
+      "readings": ["Claude Code docs: Overview and Quickstart"],
+      "due": "Lab 1"
+    },
+    {
+      "week": 2,
+      "date": "TODO: YYYY-MM-DD",
+      "topic": "Prompting and context: CLAUDE.md, memory, and plan mode",
+      "readings": ["Claude Code docs: Memory (CLAUDE.md)", "Claude Code docs: Common workflows"],
+      "due": "Lab 2"
+    },
+    {
+      "week": 3,
+      "date": "TODO: YYYY-MM-DD",
+      "topic": "Working in real codebases: exploring, editing, and the git workflow",
+      "readings": ["Claude Code docs: Common workflows (git and pull requests)"],
+      "due": "Lab 3; Project 1"
+    },
+    {
+      "week": 4,
+      "date": "TODO: YYYY-MM-DD",
+      "topic": "Testing, debugging, and code review with Claude",
+      "readings": ["Claude Code docs: Best practices"],
+      "due": "Lab 4"
+    },
+    {
+      "week": 5,
+      "date": "TODO: YYYY-MM-DD",
+      "topic": "Extending Claude Code: hooks, skills, MCP servers, and subagents",
+      "readings": ["Claude Code docs: Hooks", "Claude Code docs: MCP", "Claude Code docs: Subagents"],
+      "due": "Lab 5; Project 2"
+    },
+    {
+      "week": 6,
+      "date": "TODO: YYYY-MM-DD",
+      "topic": "Capstone build and demo day",
+      "readings": [],
+      "due": "Capstone project and demo"
+    }
+  ]
+}
